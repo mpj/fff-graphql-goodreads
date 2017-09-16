@@ -1,0 +1,23 @@
+{
+  "name": "fff-graphql-goodreads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpj/fff-graphql-goodreads.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mpj/fff-graphql-goodreads/issues"
+  },
+  "homepage": "https://github.com/mpj/fff-graphql-goodreads#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.3",
+    "xml2js": "^0.4.19"
+  }
+}
