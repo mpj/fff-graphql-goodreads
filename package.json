@@ -1,10 +1,10 @@
 {
   "name": "fff-graphql-goodreads",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "serve.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node serve.js"
   },
   "repository": {
     "type": "git",
@@ -15,10 +15,19 @@
   },
   "homepage": "https://github.com/mpj/fff-graphql-goodreads#readme",
   "dependencies": {
-    "dataloader": "^1.3.0",
-    "express": "^4.15.4",
-    "express-graphql": "^0.6.11",
-    "graphql": "^0.11.3",
-    "xml2js": "^0.4.19"
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
+    "dataloader": "^1.4.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "graphql-tools": "^4.0.6",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.4",
+    "xml2js": "^0.4.22"
+  },
+  "devDependencies": {
+    "babel-plugin-inline-import": "^3.0.0"
   }
 }
