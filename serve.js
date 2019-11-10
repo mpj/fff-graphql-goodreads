@@ -6,7 +6,7 @@ const schema = require('./schema')
 const DataLoader = require('dataloader')
 const util = require('util')
 const parseXML = util.promisify(require('xml2js').parseString)
-const port = 3000;
+const port =  process.env.PORT || 3000;
 
 const apiKey = 'JhAxN6ovTxTfH7RMRo5VoQ';
 
